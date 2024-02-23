@@ -1,0 +1,60 @@
+<mxfile host="Electron" modified="2024-02-15T22:32:49.096Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="bl8ZjRLbqTkVAQPPQGkU" version="22.1.16" type="device">
+  <diagram name="Pagina-1" id="aYRSPAcuOXkNQPrTX8c9">
+    <mxGraphModel dx="1595" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EO1-nEgCSAbDyuO0RN2w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.087;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="EO1-nEgCSAbDyuO0RN2w-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.95000000000005" y="597" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="150" />
+              <mxPoint x="70" y="620" />
+              <mxPoint x="353" y="620" />
+              <mxPoint x="353" y="610" />
+              <mxPoint x="400" y="610" />
+              <mxPoint x="400" y="593" />
+            </Array>
+            <mxPoint x="170" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-1" value="Paziente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-4" value="Prenotazione Visita" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="130" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-5" value="Approvazione di un appuntamento o annullamento" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="270" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.089;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Z6yIrZc0MKmsH55c3pTE-1" target="Z6yIrZc0MKmsH55c3pTE-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Z6yIrZc0MKmsH55c3pTE-12" target="Z6yIrZc0MKmsH55c3pTE-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6yIrZc0MKmsH55c3pTE-12" value="Medico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="295" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EO1-nEgCSAbDyuO0RN2w-3" value="Creazione di un profilo" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EO1-nEgCSAbDyuO0RN2w-4" value="&lt;p style=&quot;line-height: 1px; margin-bottom: 0cm; background: transparent; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;Modifica data di&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1px; margin-bottom: 0cm; background: transparent; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;un appuntamento o&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1px; margin-bottom: 0cm; background: transparent; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;&amp;nbsp;annullamento&lt;/font&gt;&lt;/p&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="540" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EO1-nEgCSAbDyuO0RN2w-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Z6yIrZc0MKmsH55c3pTE-1" target="EO1-nEgCSAbDyuO0RN2w-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EO1-nEgCSAbDyuO0RN2w-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Z6yIrZc0MKmsH55c3pTE-12" target="EO1-nEgCSAbDyuO0RN2w-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
